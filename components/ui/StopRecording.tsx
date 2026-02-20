@@ -11,4 +11,5 @@ export default function StopRecording() {
       <div className=" bg-green-300"></div>
     </div>
   );
+
 }
