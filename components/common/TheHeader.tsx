@@ -1,4 +1,4 @@
-"use client"; // Needed if using useState in a Next.js App Router app
+"use client"; 
 
 import { useState } from "react";
 import {
@@ -10,9 +10,8 @@ import {
   MenuIcon,
   XIcon,
 } from "lucide-react";
-import Image from "next/image";
 import { Button } from "../ui/button";
-
+import Image from "next/image";
 export default function TheHeader() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
