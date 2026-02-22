@@ -5,6 +5,9 @@ import Hero from "@/components/common/Hero";
 import StopRecording from "@/components/ui/StopRecording";
 import Spreadsheet from "@/components/common/Spreadsheet ";
 import SearchRecall from "@/components/common/SearchRecall";
+import InformDelight from "@/components/common/InformDelight";
+import NeverVistYourBank from "@/components/common/NeverVistYourBank";
+import TestingCom from "@/components/common/TestingCom";
 
 export default function Home() {
   return (
@@ -14,7 +17,9 @@ export default function Home() {
       <StopRecording />
       <Spreadsheet />
       <SearchRecall />
-      
+      <InformDelight />
+      <NeverVistYourBank/>
+      <TestingCom/>
     </>
   );
 }
