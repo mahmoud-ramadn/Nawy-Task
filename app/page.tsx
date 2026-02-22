@@ -7,7 +7,9 @@ import Spreadsheet from "@/components/common/Spreadsheet ";
 import SearchRecall from "@/components/common/SearchRecall";
 import InformDelight from "@/components/common/InformDelight";
 import NeverVistYourBank from "@/components/common/NeverVistYourBank";
-import TestingCom from "@/components/common/TestingCom";
+import Cards from "@/components/common/Cards";
+import Anxiety from "@/components/common/Anxiety";
+import JustMoneyAfterAll from "@/components/common/JustMoneyAfterAll";
 
 export default function Home() {
   return (
@@ -18,8 +20,10 @@ export default function Home() {
       <Spreadsheet />
       <SearchRecall />
       <InformDelight />
-      <NeverVistYourBank/>
-      <TestingCom/>
+      <NeverVistYourBank />
+      <Cards />
+      <Anxiety />
+      <JustMoneyAfterAll />
     </>
   );
 }
