@@ -53,6 +53,7 @@ export function Marquee({
         },
         className
       )}
+      suppressHydrationWarning
     >
       {Array(repeat)
         .fill(0)
@@ -65,6 +66,7 @@ export function Marquee({
               "group-hover:[animation-play-state:paused]": pauseOnHover,
               "[animation-direction:reverse]": reverse,
             })}
+            suppressHydrationWarning
           >
             {children}
           </div>
