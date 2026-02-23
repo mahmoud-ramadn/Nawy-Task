@@ -30,7 +30,10 @@ export default function TheHeader() {
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+    <header 
+      className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200"
+      suppressHydrationWarning
+    >
       <div className="container mx-auto px-4 md:px-36 py-4 md:py-6">
         <nav className="flex items-center justify-between">
           {/* Logo and left navigation (always visible on desktop) */}
@@ -42,6 +45,7 @@ export default function TheHeader() {
                 height={500}
                 alt="fold logo"
                 className="w-8 h-8"
+                suppressHydrationWarning
               />
               <span className="font-bold text-xl md:text-2xl text-[#676B89]">
                 fold
